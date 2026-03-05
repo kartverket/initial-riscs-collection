@@ -1,0 +1,52 @@
+{
+    "schemaVersion": "5.2",
+    "title": "Plassholder for B-nivå-RoS",
+    "scope": "Denne RoSen inneholder kun ett scenrio og ett tiltak som antar at risiko- og sårbarhetsanalysen ligger på B-PC",
+    "scenarios": [
+        {
+            "title": "Plassholder for RoS på B-PC",
+            "scenario": {
+                "ID": "N1GiY",
+                "description": "Den egentlige RoSen ligger på B-PC",
+                "threatActors": [
+                    "Hacktivist",
+                    "Script kiddie",
+                    "Insider",
+                    "Organised crime",
+                    "Terrorist organisation",
+                    "Nation/government",
+                    "Reckless employee"
+                ],
+                "vulnerabilities": [
+                    "Misconfiguration",
+                    "Dependency vulnerability",
+                    "Unauthorized access",
+                    "Information leak",
+                    "Excessive use",
+                    "Flawed design",
+                    "Input tampering",
+                    "Unmonitored use"
+                ],
+                "risk": {
+                    "probability": 300,
+                    "consequence": 30000000
+                },
+                "actions": [
+                    {
+                        "title": "Oppdater RoS/IP/DPIA",
+                        "action": {
+                            "ID": "SGjnH",
+                            "description": "Sørg for at RoS og IP og evt DPIA etablert og oppdatert sammen med kodeendring. Kontrolleren er oppfylt når teamet har etablert rutiner som sikrer dette\n\nRoS for produktet og produktets komponenter bør revurderes hver 3-6 måned, og oftere hvis det skjer mange endringer. Vær spesielt oppmerksom på endringer i endepunkter, integrasjoner, avhengigheter og brukergrupper. Punktet er oppfylt når rutine for revurdering er etablert. \n\nRoS skal godkjennes av produktets risikoeier. En del av vurderingen av dette punktet, er å vite hvem det er.\n\n```\nInternt metodeverk:   UT-047\nISO 27002:            5.34, 8.32\nNIST CSF 2.0:         ID.AM-05, GV.RM-06, GV.SC-03, GV.SC-07, ID.RA-03, ID.RA-04, DE.AE-04\nOWASP ASVS 4.0.3:     V1.1.2, V8.3.3, V8.3.4\nNSMs grunnprinsipper: \nSikkerhetsloven:      \n```",
+                            "url": "",
+                            "status": "Not OK"
+                        }
+                    }
+                ],
+                "remainingRisk": {
+                    "probability": 1,
+                    "consequence": 1000000
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "id": "begrenset",
+    "priorityIndex": 4,
+    "listName": "Begrenset nivå",
+    "listDescription": "RoS som peker videre til RoS på B-PC",
+    "preferredBackstageComponentType": ""
+  },
+  {
+    "id": "intern-jobb",
+    "priorityIndex": 2,
+    "listName": "Automatisk jobb",
+    "listDescription": "Intern applikasjon som kjører i ny og ne",
+    "preferredBackstageComponentType": "service"
+  },
+  {
+    "id": "ops",
+    "priorityIndex": 3,
+    "listName": "Bygg og deploy",
+    "listDescription": "Typisk *-apps-repo, som inneholder script for å sette opp infrastruktur og rulle ut applikasjoner",
+    "preferredBackstageComponentType": "ops"
+  },
+  {
+    "id": "saas-tjeneste",
+    "priorityIndex": 5,
+    "listName": "SaaS-tjeneste (BETA)",
+    "listDescription": "RoS for eksterne SaaS-tjenester",
+    "preferredBackstageComponentType": "website"
+  },
+  {
+    "id": "web-app-api",
+    "priorityIndex": 1,
+    "listName": "Web-app/API",
+    "listDescription": "Tjeneste som eksterne og interne brukere og klienter interagerer med, f.eks gjennom en nettleser eller maskinelt",
+    "preferredBackstageComponentType": "website"
+  }
+]
