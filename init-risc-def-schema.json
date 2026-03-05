@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "id",
+      "priorityIndex",
+      "listName",
+      "listDescription",
+      "preferredBackstageComponentType"
+    ],
+    "properties": {
+      "id": {
+        "type": "string"
+      },
+      "priorityIndex": {
+        "type": "integer"
+      },
+      "listName": {
+        "type": "string"
+      },
+      "listDescription": {
+        "type": "string"
+      },
+      "preferredBackstageComponentType": {
+        "type": "string"
+      }
+    },
+    "additionalProperties": false
+  }
+}
