@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: initial-riscs-collection
+  title: Initiell RoS
+spec:
+  type: documentation
+  owner: group:default/skvis
+  lifecycle: experimental
+  system: system:default/ros-as-code
