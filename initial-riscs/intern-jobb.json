@@ -1,6 +1,6 @@
 {
     "schemaVersion": "5.2",
-    "title": "Initiell RoS -  automatisk jobb",
+    "title": "Initiell RoS - automatisk jobb",
     "scope": "Denne RoS'en inneholder scenarier som bør vurderes for interne verktøy og jobber. DEN ER IKKE KOMPLETT, men et utgangspunkt for teamet til å gjøre sine egne vurderinger.",
     "scenarios": [
         {
@@ -16,7 +16,7 @@
                 ],
                 "risk": {
                     "probability": 1,
-                    "consequence": 30000
+                    "consequence": 160000
                 },
                 "actions": [
                     {
@@ -156,8 +156,8 @@
                     }
                 ],
                 "remainingRisk": {
-                    "probability": 0.01,
-                    "consequence": 30000
+                    "probability": 0.0025,
+                    "consequence": 160000
                 }
             }
         },
@@ -176,7 +176,7 @@
                 ],
                 "risk": {
                     "probability": 1,
-                    "consequence": 1000000
+                    "consequence": 3200000
                 },
                 "actions": [
                     {
@@ -217,8 +217,8 @@
                     }
                 ],
                 "remainingRisk": {
-                    "probability": 0.01,
-                    "consequence": 1000000
+                    "probability": 0.0025,
+                    "consequence": 3200000
                 }
             }
         },
@@ -235,7 +235,7 @@
                 ],
                 "risk": {
                     "probability": 1,
-                    "consequence": 1000000
+                    "consequence": 3200000
                 },
                 "actions": [
                     {
@@ -294,8 +294,8 @@
                     }
                 ],
                 "remainingRisk": {
-                    "probability": 0.01,
-                    "consequence": 1000000
+                    "probability": 0.0025,
+                    "consequence": 3200000
                 }
             }
         },
@@ -312,8 +312,8 @@
                     "Misconfiguration"
                 ],
                 "risk": {
-                    "probability": 0.1,
-                    "consequence": 30000000
+                    "probability": 0.05,
+                    "consequence": 64000000
                 },
                 "actions": [
                     {
@@ -363,8 +363,8 @@
                     }
                 ],
                 "remainingRisk": {
-                    "probability": 0.01,
-                    "consequence": 1000000
+                    "probability": 0.0025,
+                    "consequence": 3200000
                 }
             }
         },
@@ -382,7 +382,7 @@
                 ],
                 "risk": {
                     "probability": 1,
-                    "consequence": 30000000
+                    "consequence": 64000000
                 },
                 "actions": [
                     {
@@ -423,8 +423,8 @@
                     }
                 ],
                 "remainingRisk": {
-                    "probability": 0.01,
-                    "consequence": 1000000
+                    "probability": 0.0025,
+                    "consequence": 3200000
                 }
             }
         },
@@ -441,8 +441,8 @@
                     "Information leak"
                 ],
                 "risk": {
-                    "probability": 0.1,
-                    "consequence": 1000000
+                    "probability": 0.05,
+                    "consequence": 3200000
                 },
                 "actions": [
                     {
@@ -546,8 +546,8 @@
                     }
                 ],
                 "remainingRisk": {
-                    "probability": 0.01,
-                    "consequence": 1000000
+                    "probability": 0.0025,
+                    "consequence": 3200000
                 }
             }
         },
@@ -566,7 +566,7 @@
                 ],
                 "risk": {
                     "probability": 1,
-                    "consequence": 30000000
+                    "consequence": 64000000
                 },
                 "actions": [
                     {
@@ -634,8 +634,8 @@
                     }
                 ],
                 "remainingRisk": {
-                    "probability": 0.01,
-                    "consequence": 1000000
+                    "probability": 0.0025,
+                    "consequence": 3200000
                 }
             }
         }

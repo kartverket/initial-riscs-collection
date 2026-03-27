@@ -1,6 +1,6 @@
 {
     "schemaVersion": "5.2",
-    "title": "Initiell RoS - web-app",
+    "title": "Initiell RoS - Web-app/API",
     "scope": "Denne RoS'en er generert fra opplysninger om kodebasen i kartverket.dev, sikkerhetsmetrikker og sikkerhetskontrollere. DEN ER IKKE KOMPLETT, men et utgangspunkt for teamet til å gjøre sine egne vurderinger.",
     "scenarios": [
         {
@@ -17,7 +17,7 @@
                 ],
                 "risk": {
                     "probability": 1,
-                    "consequence": 1000000
+                    "consequence": 3200000
                 },
                 "actions": [
                     {
@@ -130,8 +130,8 @@
                     }
                 ],
                 "remainingRisk": {
-                    "probability": 0.01,
-                    "consequence": 1000000
+                    "probability": 0.0025,
+                    "consequence": 3200000
                 }
             }
         },
@@ -148,7 +148,7 @@
                 ],
                 "risk": {
                     "probability": 1,
-                    "consequence": 30000
+                    "consequence": 160000
                 },
                 "actions": [
                     {
@@ -288,8 +288,8 @@
                     }
                 ],
                 "remainingRisk": {
-                    "probability": 0.01,
-                    "consequence": 30000
+                    "probability": 0.0025,
+                    "consequence": 160000
                 }
             }
         },
@@ -306,7 +306,7 @@
                 ],
                 "risk": {
                     "probability": 1,
-                    "consequence": 1000000
+                    "consequence": 3200000
                 },
                 "actions": [
                     {
@@ -365,8 +365,8 @@
                     }
                 ],
                 "remainingRisk": {
-                    "probability": 0.01,
-                    "consequence": 1000000
+                    "probability": 0.0025,
+                    "consequence": 3200000
                 }
             }
         },
@@ -382,8 +382,8 @@
                     "Flawed design"
                 ],
                 "risk": {
-                    "probability": 0.1,
-                    "consequence": 1000000
+                    "probability": 0.05,
+                    "consequence": 160000
                 },
                 "actions": [
                     {
@@ -469,8 +469,8 @@
                     }
                 ],
                 "remainingRisk": {
-                    "probability": 0.01,
-                    "consequence": 1000000
+                    "probability": 0.0025,
+                    "consequence": 3200000
                 }
             }
         },
@@ -489,8 +489,8 @@
                     "Unmonitored use"
                 ],
                 "risk": {
-                    "probability": 50,
-                    "consequence": 30000
+                    "probability": 20,
+                    "consequence": 160000
                 },
                 "actions": [
                     {
@@ -594,8 +594,8 @@
                     }
                 ],
                 "remainingRisk": {
-                    "probability": 0.01,
-                    "consequence": 30000
+                    "probability": 0.0025,
+                    "consequence": 160000
                 }
             }
         },
@@ -614,7 +614,7 @@
                 ],
                 "risk": {
                     "probability": 1,
-                    "consequence": 30000000
+                    "consequence": 64000000
                 },
                 "actions": [
                     {
@@ -664,8 +664,8 @@
                     }
                 ],
                 "remainingRisk": {
-                    "probability": 0.01,
-                    "consequence": 1000000
+                    "probability": 0.0025,
+                    "consequence": 3200000
                 }
             }
         },
@@ -684,7 +684,7 @@
                 ],
                 "risk": {
                     "probability": 1,
-                    "consequence": 1000000
+                    "consequence": 3200000
                 },
                 "actions": [
                     {
@@ -734,8 +734,8 @@
                     }
                 ],
                 "remainingRisk": {
-                    "probability": 0.01,
-                    "consequence": 1000000
+                    "probability": 0.0025,
+                    "consequence": 3200000
                 }
             }
         },
@@ -753,7 +753,7 @@
                 ],
                 "risk": {
                     "probability": 1,
-                    "consequence": 30000000
+                    "consequence": 64000000
                 },
                 "actions": [
                     {
@@ -803,8 +803,8 @@
                     }
                 ],
                 "remainingRisk": {
-                    "probability": 0.01,
-                    "consequence": 1000000
+                    "probability": 0.0025,
+                    "consequence": 3200000
                 }
             }
         },
@@ -821,8 +821,8 @@
                     "Information leak"
                 ],
                 "risk": {
-                    "probability": 0.1,
-                    "consequence": 1000000
+                    "probability": 0.05,
+                    "consequence": 3200000
                 },
                 "actions": [
                     {
@@ -926,8 +926,8 @@
                     }
                 ],
                 "remainingRisk": {
-                    "probability": 0.01,
-                    "consequence": 1000000
+                    "probability": 0.0025,
+                    "consequence": 3200000
                 }
             }
         },
@@ -945,8 +945,8 @@
                     "Dependency vulnerability"
                 ],
                 "risk": {
-                    "probability": 0.1,
-                    "consequence": 30000000
+                    "probability": 0.05,
+                    "consequence": 64000000
                 },
                 "actions": [
                     {
@@ -1005,8 +1005,8 @@
                     }
                 ],
                 "remainingRisk": {
-                    "probability": 0.01,
-                    "consequence": 1000000
+                    "probability": 0.0025,
+                    "consequence": 3200000
                 }
             }
         },
@@ -1025,7 +1025,7 @@
                 ],
                 "risk": {
                     "probability": 1,
-                    "consequence": 30000000
+                    "consequence": 64000000
                 },
                 "actions": [
                     {
@@ -1093,8 +1093,8 @@
                     }
                 ],
                 "remainingRisk": {
-                    "probability": 0.01,
-                    "consequence": 1000000
+                    "probability": 0.0025,
+                    "consequence": 3200000
                 }
             }
         },
@@ -1112,7 +1112,7 @@
                 ],
                 "risk": {
                     "probability": 1,
-                    "consequence": 30000000
+                    "consequence": 64000000
                 },
                 "actions": [
                     {
@@ -1153,8 +1153,8 @@
                     }
                 ],
                 "remainingRisk": {
-                    "probability": 0.01,
-                    "consequence": 1000000
+                    "probability": 0.0025,
+                    "consequence": 3200000
                 }
             }
         },
@@ -1173,7 +1173,7 @@
                 ],
                 "risk": {
                     "probability": 1,
-                    "consequence": 1000000
+                    "consequence": 3200000
                 },
                 "actions": [
                     {
@@ -1331,8 +1331,8 @@
                     }
                 ],
                 "remainingRisk": {
-                    "probability": 0.01,
-                    "consequence": 1000000
+                    "probability": 0.0025,
+                    "consequence": 3200000
                 }
             }
         },
@@ -1349,8 +1349,8 @@
                     "Misconfiguration"
                 ],
                 "risk": {
-                    "probability": 0.1,
-                    "consequence": 30000000
+                    "probability": 0.05,
+                    "consequence": 64000000
                 },
                 "actions": [
                     {
@@ -1400,8 +1400,8 @@
                     }
                 ],
                 "remainingRisk": {
-                    "probability": 0.01,
-                    "consequence": 1000000
+                    "probability": 0.0025,
+                    "consequence": 3200000
                 }
             }
         },
@@ -1420,7 +1420,7 @@
                 ],
                 "risk": {
                     "probability": 1,
-                    "consequence": 1000000
+                    "consequence": 3200000
                 },
                 "actions": [
                     {
@@ -1461,8 +1461,8 @@
                     }
                 ],
                 "remainingRisk": {
-                    "probability": 0.01,
-                    "consequence": 1000000
+                    "probability": 0.0025,
+                    "consequence": 3200000
                 }
             }
         }
