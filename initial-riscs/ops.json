@@ -657,7 +657,7 @@
                 ],
                 "remainingRisk": {
                     "probability": 0.0025,
-                    "consequence": 3200000
+                    "consequence": 160000
                 }
             }
         },
