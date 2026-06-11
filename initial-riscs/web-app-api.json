@@ -8,13 +8,8 @@
             "scenario": {
                 "ID": "QQrIA",
                 "description": "Produktet/tjenesten oppfyller ikke inngåtte avtaler, eller det mangler avtaler eller avtaleinnhold som burde vært på plass. Avtaler som burde vært avsluttet, blir likevel videreført. Tredjeparter kan være datakonsumenter, klienter, datatilbydere og plattformleverandører",
-                "threatActors": [
-                    "Reckless employee"
-                ],
-                "vulnerabilities": [
-                    "Misconfiguration",
-                    "Flawed design"
-                ],
+                "threatActors": ["Reckless employee"],
+                "vulnerabilities": ["Misconfiguration", "Flawed design"],
                 "risk": {
                     "probability": 1,
                     "consequence": 3200000
@@ -140,12 +135,8 @@
             "scenario": {
                 "ID": "yLIyq",
                 "description": "Det kan finnes krav fra organisasjonen selv som ikke er forstått riktig eller ikke implementert. Eksempler er at utviklingsprosessen inneholder krav til innebygd sikkerhet/personvern, dokumentasjon på gitt sted eller format, eller sjekklister, håndbøker eller standarder som skal følges",
-                "threatActors": [
-                    "Reckless employee"
-                ],
-                "vulnerabilities": [
-                    "Flawed design"
-                ],
+                "threatActors": ["Reckless employee"],
+                "vulnerabilities": ["Flawed design"],
                 "risk": {
                     "probability": 1,
                     "consequence": 160000
@@ -298,12 +289,8 @@
             "scenario": {
                 "ID": "po6Ft",
                 "description": "Det kan finnes krav fra lovgiver eller tilsynsmyndighet som ikke er forstått riktig eller ikke implementert. Det kan være generelle eller produktspesifikke lovverk eller forskrifter eller ulovlighet identifisert i tilsyn",
-                "threatActors": [
-                    "Reckless employee"
-                ],
-                "vulnerabilities": [
-                    "Flawed design"
-                ],
+                "threatActors": ["Reckless employee"],
+                "vulnerabilities": ["Flawed design"],
                 "risk": {
                     "probability": 1,
                     "consequence": 3200000
@@ -375,12 +362,8 @@
             "scenario": {
                 "ID": "ANVS2",
                 "description": "En sterk knytning til en eller flere tredjeparter gir andre kontroll over aspekter som kostnader og sikkerhet. Tredjeparter kan bidra med eller levere kode, biblioteker, kjørende applikasjoner/tjenester, dataprodukter eller SaaS-, PaaS-, CaaS- eller IaaS-tjenester. Tiltak bør inkludere exist-strategier og kontroll med verdikjedene frem til produktene",
-                "threatActors": [
-                    "Reckless employee"
-                ],
-                "vulnerabilities": [
-                    "Flawed design"
-                ],
+                "threatActors": ["Reckless employee"],
+                "vulnerabilities": ["Flawed design"],
                 "risk": {
                     "probability": 0.05,
                     "consequence": 160000
@@ -484,10 +467,7 @@
                     "Terrorist organisation",
                     "Organised crime"
                 ],
-                "vulnerabilities": [
-                    "Excessive use",
-                    "Unmonitored use"
-                ],
+                "vulnerabilities": ["Excessive use", "Unmonitored use"],
                 "risk": {
                     "probability": 20,
                     "consequence": 160000
@@ -604,14 +584,8 @@
             "scenario": {
                 "ID": "R8MYJ",
                 "description": "En trusselaktør kan utnytte svak brukeradministrasjon til å skaffe seg urettmessig tilgang. Det bør iverksettes tiltak som begrenser både eksterne og interne brukere fra for stor tilgang, eller tilgang før eller etter perioden de skal ha tilgang. Det kan være snakk om tilgang til dataprodukter (lesetilgang) og/eller klientgrensesnitt (lese- og skrivetilgang)",
-                "threatActors": [
-                    "Insider",
-                    "Nation/government"
-                ],
-                "vulnerabilities": [
-                    "Unauthorized access",
-                    "Unmonitored use"
-                ],
+                "threatActors": ["Insider", "Nation/government"],
+                "vulnerabilities": ["Unauthorized access", "Unmonitored use"],
                 "risk": {
                     "probability": 1,
                     "consequence": 64000000
@@ -674,14 +648,8 @@
             "scenario": {
                 "ID": "ILwzH",
                 "description": "En trusselaktør kan utnytte ubeskyttede APIer eller APIer som har for svak sikring til å hente, endre og/eller slette informasjon urettmessig",
-                "threatActors": [
-                    "Nation/government",
-                    "Script kiddie"
-                ],
-                "vulnerabilities": [
-                    "Unauthorized access",
-                    "Flawed design"
-                ],
+                "threatActors": ["Nation/government", "Script kiddie"],
+                "vulnerabilities": ["Unauthorized access", "Flawed design"],
                 "risk": {
                     "probability": 1,
                     "consequence": 3200000
@@ -744,13 +712,8 @@
             "scenario": {
                 "ID": "4Afh8",
                 "description": "En trusselaktør kan ha legitim tilgang, men grensesnittene deler mer informasjon enn brukeren burde ha fått. Tilsvarende kan trusselaktøren ha mulighet til å endre informasjon som ligger utenfor rettighetsnivået til brukeren.",
-                "threatActors": [
-                    "Hacktivist",
-                    "Script kiddie"
-                ],
-                "vulnerabilities": [
-                    "Information leak"
-                ],
+                "threatActors": ["Hacktivist", "Script kiddie"],
+                "vulnerabilities": ["Information leak"],
                 "risk": {
                     "probability": 1,
                     "consequence": 64000000
@@ -813,9 +776,7 @@
             "scenario": {
                 "ID": "3rNua",
                 "description": "En trusselaktør kan utnytte utdaterte eller dårlig sikrede verktøy og prosesser til å få direkte tilgang til opplysninger og hemmeligheter, avsløre sårbarheter eller manipulere kode og avhengigheter i det digitale produktet til å gi seg selv tilganger i fremtiden.",
-                "threatActors": [
-                    "Nation/government"
-                ],
+                "threatActors": ["Nation/government"],
                 "vulnerabilities": [
                     "Dependency vulnerability",
                     "Information leak"
@@ -936,14 +897,8 @@
             "scenario": {
                 "ID": "zibMI",
                 "description": "En trusselaktør kan utnytte utdaterte eller dårlig sikrede rutiner, tjenester og produkter for bygging og utrulling (CI/CD) til å modifisere kode, konfigurasjon, avhengigheter eller kompilerte mellomprodukter på vei ut til kjøretidsmiljøet",
-                "threatActors": [
-                    "Hacktivist",
-                    "Nation/government",
-                    "Insider"
-                ],
-                "vulnerabilities": [
-                    "Dependency vulnerability"
-                ],
+                "threatActors": ["Hacktivist", "Nation/government", "Insider"],
+                "vulnerabilities": ["Dependency vulnerability"],
                 "risk": {
                     "probability": 0.05,
                     "consequence": 64000000
@@ -1015,14 +970,8 @@
             "scenario": {
                 "ID": "3bDnX",
                 "description": "En trusselaktør utnytter feil eller mangler i kodebasen til å endre informasjon eller klientopplevelsen på en måte som villeder eller fremtvinger en oppførsel som er til angriperens fordel. XSS- (cross-site scripting) angrep er et eksempel.",
-                "threatActors": [
-                    "Hacktivist",
-                    "Insider"
-                ],
-                "vulnerabilities": [
-                    "Flawed design",
-                    "Misconfiguration"
-                ],
+                "threatActors": ["Hacktivist", "Insider"],
+                "vulnerabilities": ["Flawed design", "Misconfiguration"],
                 "risk": {
                     "probability": 1,
                     "consequence": 64000000
@@ -1103,9 +1052,7 @@
             "scenario": {
                 "ID": "cik24",
                 "description": "En trusselaktør utnytter feil eller mangler i kode, biblioteker eller produkter hentet utenfra til å endre informasjon eller klientopplevelsen på en måte som villeder eller fremtvinger en oppførsel som er i trusselaktørens interesse. ",
-                "threatActors": [
-                    "Script kiddie"
-                ],
+                "threatActors": ["Script kiddie"],
                 "vulnerabilities": [
                     "Dependency vulnerability",
                     "Misconfiguration"
@@ -1163,14 +1110,8 @@
             "scenario": {
                 "ID": "pB8g1",
                 "description": "Manglende overvåkning av bruk kan gi en trusselaktør mulighet til å skjule aktivitet, benekte at en aktivitet har skjedd, eller forlenge et angrep. Et gjennomført eller pågående angrep blir ikke håndtert riktig eller raskt nok",
-                "threatActors": [
-                    "Hacktivist",
-                    "Nation/government",
-                    "Insider"
-                ],
-                "vulnerabilities": [
-                    "Unmonitored use"
-                ],
+                "threatActors": ["Hacktivist", "Nation/government", "Insider"],
+                "vulnerabilities": ["Unmonitored use"],
                 "risk": {
                     "probability": 1,
                     "consequence": 3200000
@@ -1341,9 +1282,7 @@
             "scenario": {
                 "ID": "cVfmH",
                 "description": "En trusselaktør utnytter sårbarheter i miljøet produktet kjører i, til å stanse eller endre oppførselen til produktet, eller endre eller stjele data og hemmeligheter. Miljøet kan være operativsystem, app-servere eller *aaS-tjenester",
-                "threatActors": [
-                    "Nation/government"
-                ],
+                "threatActors": ["Nation/government"],
                 "vulnerabilities": [
                     "Dependency vulnerability",
                     "Misconfiguration"
@@ -1410,10 +1349,7 @@
             "scenario": {
                 "ID": "VNLM3",
                 "description": "En trusselaktør skaffer seg kontroll over dataflyten til en datatilbyder, og endrer innholdet eller stanser datadeling. Hvis dataene er nødvendige for funksjonaliteten til produktet, må tiltak iverksettes for å avdekke og håndtere avvik, og finne alternative måter til å opprettholde integriteten og tilgjengeligheten til produktet",
-                "threatActors": [
-                    "Insider",
-                    "Nation/government"
-                ],
+                "threatActors": ["Insider", "Nation/government"],
                 "vulnerabilities": [
                     "Dependency vulnerability",
                     "Flawed design"
@@ -1457,6 +1393,134 @@
                             "description": "Ha automatiserte tester/testdekning i byggekjede, inklusive tester for sårbarheter og sikkerhetstest. De bør kunne kjøres både lokalt og på byggeserver\n\n```\nInternt metodeverk:   UT-037\nISO 27002:            8.28, 8.29\nNIST CSF 2.0:         PR.PS-06\nOWASP ASVS 4.0.3:     V1.14.3, V3.4.1, V3.4.2, V3.4.3, V3.4.4, V3.5.2, V3.5.3, V5.1.1, V5.1.2, V5.3.1, V14.1.1, V14.3.2, V14.3.3, V14.4.1, V14.4.2, V14.4.3, V14.4.4, V14.4.5, V14.4.6, V14.4.7, V14.5.1, V14.5.2, V14.5.3, V14.5.4\nNSMs grunnprinsipper: 2.1.7, 2.10.1\nSikkerhetsloven:      § 6-5\n```",
                             "url": "",
                             "status": "Not OK"
+                        }
+                    },
+                    {
+                        "title": "Ukontrollert bruk av KI til systemoperasjoner",
+                        "scenario": {
+                            "ID": "xK9mP",
+                            "description": "KI‑verktøy brukes til å generere eller utføre kommandoer mot utviklingsmiljø, infrastruktur eller systemer uten tilstrekkelig kontroll, forståelse eller begrensninger.\n\nDette kan føre til utilsiktede endringer, økt risiko for feil, og redusert oversikt over hva som faktisk er gjort.\n\n```\nNIST AI RMF: Measure (ME.RA-01), Manage (MG.CT-01)\nISO/IEC 42001: 8.3\nNSM: 3 (Oppdage og håndtere hendelser)\n```",
+                            "threatActors": [],
+                            "vulnerabilities": [],
+                            "risk": {
+                                "probability": 0,
+                                "consequence": 0
+                            },
+                            "actions": [
+                                {
+                                    "title": "KI-genererte kommandoer kjøres uten tilstrekkelig forståelse",
+                                    "action": {
+                                        "ID": "bR3nL",
+                                        "description": "Utvikler bruker forslag fra KI uten å forstå hva kommandoen faktisk gjør, eller hvilke konsekvenser den kan ha.\n\nDette kan føre til:\n- utilsiktede endringer i kode eller miljø\n- feilkonfigurasjon\n- uforutsigbar oppførsel\n\n```\nNIST AI RMF: Measure (ME.RA-01), Manage (MG.CT-01)\nISO/IEC 42001: 8.3\nNSM: 3 (Oppdage og håndtere hendelser)\n```",
+                                        "url": "",
+                                        "status": "Not OK"
+                                    }
+                                },
+                                {
+                                    "title": "KI får tilgang til mer data eller kontekst enn nødvendig",
+                                    "action": {
+                                        "ID": "qW7vZ",
+                                        "description": "Bruk av KI i CLI eller IDE kan gi modellen tilgang til filer, konfigurasjon eller miljøvariabler som ikke er ment å deles.\n\nDette kan medføre:\n- utilsiktet eksponering av informasjon\n- økt angrepsflate\n- manglende kontroll på hva som deles\n\n```\nNIST AI RMF: Map (MP.AC-01), Govern (GV.RM-01)\nISO/IEC 42001: 8.4\nNSM: 2 (Beskytte verdier)\n```",
+                                        "url": "",
+                                        "status": "Not OK"
+                                    }
+                                },
+                                {
+                                    "title": "KI brukes til å automatisere oppgaver uten tilstrekkelig kontroll",
+                                    "action": {
+                                        "ID": "tY2kF",
+                                        "description": "KI benyttes til å sette opp miljøer, generere scripts eller utføre oppgaver i flere steg uten tilstrekkelig kontroll.\n\nDette kan føre til:\n- feilaktige eller usikre oppsett\n- manglende kvalitetssikring\n- redusert etterprøvbarhet\n\n```\nNIST AI RMF: Manage (MG.CT-01), Govern (GV.PO-01)\nISO/IEC 42001: 8.4\nNSM: 2 (Beskytte verdier)\n```",
+                                        "url": "",
+                                        "status": "Not OK"
+                                    }
+                                },
+                                {
+                                    "title": "KI-genererte kommandoer påvirker eksterne systemer",
+                                    "action": {
+                                        "ID": "pL8mN",
+                                        "description": "Kommandoer foreslått eller generert av KI får effekt utenfor utviklingsmiljøet, for eksempel mot skyplattformer, API‑er eller databaser.\n\nDette kan medføre:\n- utilsiktede endringer i eksterne systemer\n- uautorisert tilgang eller handlinger\n- økt konsekvens ved feil\n\n```\nNIST AI RMF: Manage (MG.CT-01), Measure (ME.RA-02)\nISO/IEC 42001: 8.4\nNSM: 2 (Beskytte verdier)\n```",
+                                        "url": "",
+                                        "status": "Not OK"
+                                    }
+                                },
+                                {
+                                    "title": "Manglende sporbarhet på utførte handlinger",
+                                    "action": {
+                                        "ID": "rD5jH",
+                                        "description": "Bruk av KI i CLI gjør det vanskelig å ettergå hva som er generert av KI og hva som faktisk er gjort.\n\nDette kan føre til:\n- redusert revisjonsmulighet\n- vanskelig feilsøking\n- manglende dokumentasjon av endringer\n\n```\nNIST AI RMF: Measure (ME.AS-04), Manage (MG.OV-02)\nISO/IEC 42001: 8.6\nNSM: 3 (Oppdage hendelser)\n```",
+                                        "url": "",
+                                        "status": "Not OK"
+                                    }
+                                },
+                                {
+                                    "title": "For høy tillit til KI i operasjonelle oppgaver",
+                                    "action": {
+                                        "ID": "wG4cV",
+                                        "description": "Utviklere stoler for mye på KI uten tilstrekkelig kritisk vurdering.\n\nDette kan medføre:\n- feil implementasjon\n- usikker kode eller konfigurasjon\n- redusert faglig kontroll\n\n```\nNIST AI RMF: Measure (ME.RA-01)\nISO/IEC 42001: 8.3\nNSM: 3 (Oppdage og håndtere feil)\n```",
+                                        "url": "",
+                                        "status": "Not OK"
+                                    }
+                                }
+                            ],
+                            "remainingRisk": {
+                                "probability": 0,
+                                "consequence": 0
+                            }
+                        }
+                    },
+                    {
+                        "title": "Manglende kontroll ved eksperimentering med KI-basert automatisering",
+                        "scenario": {
+                            "ID": "mF6xQ",
+                            "description": "KI‑verktøy brukes til å teste eller utforske nye måter å automatisere oppgaver på, uten tilstrekkelig avgrensning av omfang, miljø eller ansvar.",
+                            "threatActors": [],
+                            "vulnerabilities": [],
+                            "risk": {
+                                "probability": 0,
+                                "consequence": 0
+                            },
+                            "actions": [
+                                {
+                                    "title": "Eksperimentering skjer uten tydelige rammer",
+                                    "action": {
+                                        "ID": "hB9sK",
+                                        "description": "Det er uklart hva som testes, hva som er tillatt, og hva som ikke er tillatt.\n\nDette kan føre til:\n- uoversiktlig bruk\n- utilsiktet risikoeksponering\n- vanskelig oppfølging\n\n```\nNIST AI RMF: Govern (GV.PO-01), Govern (GV.RM-01)\nISO/IEC 42001: 5.3\nNSM: 1 (Identifisere og styre)\n```",
+                                        "url": "",
+                                        "status": "Not OK"
+                                    }
+                                },
+                                {
+                                    "title": "Skille mellom testmiljø og virkelige data er uklart",
+                                    "action": {
+                                        "ID": "nZ1rT",
+                                        "description": "Eksperimentering skjer i miljøer som inneholder reelle eller produksjonslignende data.\n\nDette kan medføre:\n- eksponering av sensitive data\n- uautoriserte handlinger i feil miljø\n\n```\nNIST AI RMF: Map (MP.AC-01), Manage (MG.CT-01)\nISO/IEC 42001: 8.4\nNSM: 2 (Beskytte verdier)\n```",
+                                        "url": "",
+                                        "status": "Not OK"
+                                    }
+                                },
+                                {
+                                    "title": "Manglende ansvar for oppfølging og kontroll",
+                                    "action": {
+                                        "ID": "vX3dW",
+                                        "description": "Det er ikke tydelig hvem som eier, følger opp og vurderer risiko i eksperimentene.\n\nDette kan føre til:\n- manglende kontroll\n- ustrukturert oppfølging\n- økt risiko over tid\n\n```\nNIST AI RMF: Govern (GV.PO-02), Govern (GV.RR-01)\nISO/IEC 42001: 5.3\nNSM: 1 (Styring og organisering)\n```",
+                                        "url": "",
+                                        "status": "Not OK"
+                                    }
+                                },
+                                {
+                                    "title": "Læring og erfaringer blir ikke systematisert",
+                                    "action": {
+                                        "ID": "cA8eY",
+                                        "description": "Resultater fra testing dokumenteres ikke og deles ikke systematisk.\n\nDette kan føre til:\n- gjentakelse av feil\n- manglende kompetansebygging\n- svakere beslutningsgrunnlag\n\n```\nNIST AI RMF: Manage (MG.RM-01), Measure (ME.AS-01)\nISO/IEC 42001: 9.1\nNSM: 1 (Forbedring og læring)\n```",
+                                        "url": "",
+                                        "status": "Not OK"
+                                    }
+                                }
+                            ],
+                            "remainingRisk": {
+                                "probability": 0,
+                                "consequence": 0
+                            }
                         }
                     }
                 ],
