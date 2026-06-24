@@ -1405,7 +1405,7 @@
         {
             "title": "AI-Hovedscenario 1: Bruk av KI er ikke forstått eller avgrenset i løsningen",
             "scenario": {
-                "ID": "uCG9y",
+                "ID": "xK9mP",
                 "description": "",
                 "threatActors": [],
                 "vulnerabilities": [],
@@ -1460,7 +1460,7 @@
         {
             "title": "AI-Hovedscenario 2: Feil, lekkasjer eller manglende kontroll i KI-output",
             "scenario": {
-                "ID": "RcuGz",
+                "ID": "mF6xQ",
                 "description": "",
                 "threatActors": [],
                 "vulnerabilities": [],
