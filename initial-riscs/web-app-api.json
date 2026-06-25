@@ -1403,7 +1403,7 @@
             }
         },
         {
-            "title": "AI-Hovedscenario 1: Bruk av KI er ikke forstått eller avgrenset i løsningen",
+            "title": "Bruk av KI er ikke forstått eller avgrenset i løsningen",
             "scenario": {
                 "ID": "xK9mP",
                 "description": "",
@@ -1458,7 +1458,7 @@
             }
         },
         {
-            "title": "AI-Hovedscenario 2: Feil, lekkasjer eller manglende kontroll i KI-output",
+            "title": "Feil, lekkasjer eller manglende kontroll i KI-output",
             "scenario": {
                 "ID": "mF6xQ",
                 "description": "",
