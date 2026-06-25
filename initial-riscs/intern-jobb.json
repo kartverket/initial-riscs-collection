@@ -1,5 +1,5 @@
 {
-    "schemaVersion": "5.3",
+    "schemaVersion": "5.4",
     "title": "Initiell RoS - automatisk jobb",
     "scope": "Denne RoS'en inneholder scenarier som bør vurderes for interne verktøy og jobber. DEN ER IKKE KOMPLETT, men et utgangspunkt for teamet til å gjøre sine egne vurderinger.",
     "scenarios": [
