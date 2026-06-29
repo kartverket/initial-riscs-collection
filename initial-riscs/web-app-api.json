@@ -8,13 +8,8 @@
             "scenario": {
                 "ID": "QQrIA",
                 "description": "Produktet/tjenesten oppfyller ikke inngåtte avtaler, eller det mangler avtaler eller avtaleinnhold som burde vært på plass. Avtaler som burde vært avsluttet, blir likevel videreført. Tredjeparter kan være datakonsumenter, klienter, datatilbydere og plattformleverandører",
-                "threatActors": [
-                    "Reckless employee"
-                ],
-                "vulnerabilities": [
-                    "Misconfiguration",
-                    "Flawed design"
-                ],
+                "threatActors": ["Reckless employee"],
+                "vulnerabilities": ["Misconfiguration", "Flawed design"],
                 "risk": {
                     "probability": 1,
                     "consequence": 3200000
@@ -140,12 +135,8 @@
             "scenario": {
                 "ID": "yLIyq",
                 "description": "Det kan finnes krav fra organisasjonen selv som ikke er forstått riktig eller ikke implementert. Eksempler er at utviklingsprosessen inneholder krav til innebygd sikkerhet/personvern, dokumentasjon på gitt sted eller format, eller sjekklister, håndbøker eller standarder som skal følges",
-                "threatActors": [
-                    "Reckless employee"
-                ],
-                "vulnerabilities": [
-                    "Flawed design"
-                ],
+                "threatActors": ["Reckless employee"],
+                "vulnerabilities": ["Flawed design"],
                 "risk": {
                     "probability": 1,
                     "consequence": 160000
@@ -298,12 +289,8 @@
             "scenario": {
                 "ID": "po6Ft",
                 "description": "Det kan finnes krav fra lovgiver eller tilsynsmyndighet som ikke er forstått riktig eller ikke implementert. Det kan være generelle eller produktspesifikke lovverk eller forskrifter eller ulovlighet identifisert i tilsyn",
-                "threatActors": [
-                    "Reckless employee"
-                ],
-                "vulnerabilities": [
-                    "Flawed design"
-                ],
+                "threatActors": ["Reckless employee"],
+                "vulnerabilities": ["Flawed design"],
                 "risk": {
                     "probability": 1,
                     "consequence": 3200000
@@ -375,12 +362,8 @@
             "scenario": {
                 "ID": "ANVS2",
                 "description": "En sterk knytning til en eller flere tredjeparter gir andre kontroll over aspekter som kostnader og sikkerhet. Tredjeparter kan bidra med eller levere kode, biblioteker, kjørende applikasjoner/tjenester, dataprodukter eller SaaS-, PaaS-, CaaS- eller IaaS-tjenester. Tiltak bør inkludere exist-strategier og kontroll med verdikjedene frem til produktene",
-                "threatActors": [
-                    "Reckless employee"
-                ],
-                "vulnerabilities": [
-                    "Flawed design"
-                ],
+                "threatActors": ["Reckless employee"],
+                "vulnerabilities": ["Flawed design"],
                 "risk": {
                     "probability": 0.05,
                     "consequence": 160000
@@ -484,10 +467,7 @@
                     "Terrorist organisation",
                     "Organised crime"
                 ],
-                "vulnerabilities": [
-                    "Excessive use",
-                    "Unmonitored use"
-                ],
+                "vulnerabilities": ["Excessive use", "Unmonitored use"],
                 "risk": {
                     "probability": 20,
                     "consequence": 160000
@@ -604,14 +584,8 @@
             "scenario": {
                 "ID": "R8MYJ",
                 "description": "En trusselaktør kan utnytte svak brukeradministrasjon til å skaffe seg urettmessig tilgang. Det bør iverksettes tiltak som begrenser både eksterne og interne brukere fra for stor tilgang, eller tilgang før eller etter perioden de skal ha tilgang. Det kan være snakk om tilgang til dataprodukter (lesetilgang) og/eller klientgrensesnitt (lese- og skrivetilgang)",
-                "threatActors": [
-                    "Insider",
-                    "Nation/government"
-                ],
-                "vulnerabilities": [
-                    "Unauthorized access",
-                    "Unmonitored use"
-                ],
+                "threatActors": ["Insider", "Nation/government"],
+                "vulnerabilities": ["Unauthorized access", "Unmonitored use"],
                 "risk": {
                     "probability": 1,
                     "consequence": 64000000
@@ -674,14 +648,8 @@
             "scenario": {
                 "ID": "ILwzH",
                 "description": "En trusselaktør kan utnytte ubeskyttede APIer eller APIer som har for svak sikring til å hente, endre og/eller slette informasjon urettmessig",
-                "threatActors": [
-                    "Nation/government",
-                    "Script kiddie"
-                ],
-                "vulnerabilities": [
-                    "Unauthorized access",
-                    "Flawed design"
-                ],
+                "threatActors": ["Nation/government", "Script kiddie"],
+                "vulnerabilities": ["Unauthorized access", "Flawed design"],
                 "risk": {
                     "probability": 1,
                     "consequence": 3200000
@@ -744,13 +712,8 @@
             "scenario": {
                 "ID": "4Afh8",
                 "description": "En trusselaktør kan ha legitim tilgang, men grensesnittene deler mer informasjon enn brukeren burde ha fått. Tilsvarende kan trusselaktøren ha mulighet til å endre informasjon som ligger utenfor rettighetsnivået til brukeren.",
-                "threatActors": [
-                    "Hacktivist",
-                    "Script kiddie"
-                ],
-                "vulnerabilities": [
-                    "Information leak"
-                ],
+                "threatActors": ["Hacktivist", "Script kiddie"],
+                "vulnerabilities": ["Information leak"],
                 "risk": {
                     "probability": 1,
                     "consequence": 64000000
@@ -813,9 +776,7 @@
             "scenario": {
                 "ID": "3rNua",
                 "description": "En trusselaktør kan utnytte utdaterte eller dårlig sikrede verktøy og prosesser til å få direkte tilgang til opplysninger og hemmeligheter, avsløre sårbarheter eller manipulere kode og avhengigheter i det digitale produktet til å gi seg selv tilganger i fremtiden.",
-                "threatActors": [
-                    "Nation/government"
-                ],
+                "threatActors": ["Nation/government"],
                 "vulnerabilities": [
                     "Dependency vulnerability",
                     "Information leak"
@@ -936,14 +897,8 @@
             "scenario": {
                 "ID": "zibMI",
                 "description": "En trusselaktør kan utnytte utdaterte eller dårlig sikrede rutiner, tjenester og produkter for bygging og utrulling (CI/CD) til å modifisere kode, konfigurasjon, avhengigheter eller kompilerte mellomprodukter på vei ut til kjøretidsmiljøet",
-                "threatActors": [
-                    "Hacktivist",
-                    "Nation/government",
-                    "Insider"
-                ],
-                "vulnerabilities": [
-                    "Dependency vulnerability"
-                ],
+                "threatActors": ["Hacktivist", "Nation/government", "Insider"],
+                "vulnerabilities": ["Dependency vulnerability"],
                 "risk": {
                     "probability": 0.05,
                     "consequence": 64000000
@@ -1015,14 +970,8 @@
             "scenario": {
                 "ID": "3bDnX",
                 "description": "En trusselaktør utnytter feil eller mangler i kodebasen til å endre informasjon eller klientopplevelsen på en måte som villeder eller fremtvinger en oppførsel som er til angriperens fordel. XSS- (cross-site scripting) angrep er et eksempel.",
-                "threatActors": [
-                    "Hacktivist",
-                    "Insider"
-                ],
-                "vulnerabilities": [
-                    "Flawed design",
-                    "Misconfiguration"
-                ],
+                "threatActors": ["Hacktivist", "Insider"],
+                "vulnerabilities": ["Flawed design", "Misconfiguration"],
                 "risk": {
                     "probability": 1,
                     "consequence": 64000000
@@ -1103,9 +1052,7 @@
             "scenario": {
                 "ID": "cik24",
                 "description": "En trusselaktør utnytter feil eller mangler i kode, biblioteker eller produkter hentet utenfra til å endre informasjon eller klientopplevelsen på en måte som villeder eller fremtvinger en oppførsel som er i trusselaktørens interesse. ",
-                "threatActors": [
-                    "Script kiddie"
-                ],
+                "threatActors": ["Script kiddie"],
                 "vulnerabilities": [
                     "Dependency vulnerability",
                     "Misconfiguration"
@@ -1163,14 +1110,8 @@
             "scenario": {
                 "ID": "pB8g1",
                 "description": "Manglende overvåkning av bruk kan gi en trusselaktør mulighet til å skjule aktivitet, benekte at en aktivitet har skjedd, eller forlenge et angrep. Et gjennomført eller pågående angrep blir ikke håndtert riktig eller raskt nok",
-                "threatActors": [
-                    "Hacktivist",
-                    "Nation/government",
-                    "Insider"
-                ],
-                "vulnerabilities": [
-                    "Unmonitored use"
-                ],
+                "threatActors": ["Hacktivist", "Nation/government", "Insider"],
+                "vulnerabilities": ["Unmonitored use"],
                 "risk": {
                     "probability": 1,
                     "consequence": 3200000
@@ -1341,9 +1282,7 @@
             "scenario": {
                 "ID": "cVfmH",
                 "description": "En trusselaktør utnytter sårbarheter i miljøet produktet kjører i, til å stanse eller endre oppførselen til produktet, eller endre eller stjele data og hemmeligheter. Miljøet kan være operativsystem, app-servere eller *aaS-tjenester",
-                "threatActors": [
-                    "Nation/government"
-                ],
+                "threatActors": ["Nation/government"],
                 "vulnerabilities": [
                     "Dependency vulnerability",
                     "Misconfiguration"
@@ -1410,10 +1349,7 @@
             "scenario": {
                 "ID": "VNLM3",
                 "description": "En trusselaktør skaffer seg kontroll over dataflyten til en datatilbyder, og endrer innholdet eller stanser datadeling. Hvis dataene er nødvendige for funksjonaliteten til produktet, må tiltak iverksettes for å avdekke og håndtere avvik, og finne alternative måter til å opprettholde integriteten og tilgjengeligheten til produktet",
-                "threatActors": [
-                    "Insider",
-                    "Nation/government"
-                ],
+                "threatActors": ["Insider", "Nation/government"],
                 "vulnerabilities": [
                     "Dependency vulnerability",
                     "Flawed design"
@@ -1463,6 +1399,213 @@
                 "remainingRisk": {
                     "probability": 0.0025,
                     "consequence": 3200000
+                }
+            }
+        },
+        {
+            "title": "Bruk av KI er ikke forstått eller avgrenset i løsningen",
+            "scenario": {
+                "ID": "xK9mP",
+                "description": "",
+                "threatActors": ["Reckless employee", "Insider"],
+                "vulnerabilities": [
+                    "Flawed design",
+                    "Unmonitored use",
+                    "Misconfiguration"
+                ],
+                "risk": {
+                    "probability": 1,
+                    "consequence": 160000
+                },
+                "actions": [
+                    {
+                        "title": "Kjente bruksområder",
+                        "action": {
+                            "ID": "SZpiZ",
+                            "description": "Det er tydelig definert hva KI brukes til i løsningen.\n\nNår kontrollen anses oppfylt:\nTeamet kan beskrive konkrete bruksområder og hvor i prosessen KI inngår.\n\n```\nInternt metodeverk:   AI-ROS-01\nISO/IEC 42001:       5.3, 8.2\nNIST AI RMF:         MP.AC-01, MP.AC-02\nNSMs grunnprinsipper: 1\n```",
+                            "url": "",
+                            "status": "Not OK"
+                        }
+                    },
+                    {
+                        "title": "Avgrensning av bruk",
+                        "action": {
+                            "ID": "Qm7eK",
+                            "description": "Det er vurdert hvilke deler av løsningen hvor KI ikke skal brukes.\n\nNår kontrollen anses oppfylt:\nKritiske komponenter er identifisert og eksplisitt unntatt fra KI-bruk.\n\n```\nInternt metodeverk:   AI-ROS-02\nISO/IEC 42001:       8.3, 8.4\nNIST AI RMF:         MP.AC-03, GV.RM-01\nNSMs grunnprinsipper: 2\n```",
+                            "url": "",
+                            "status": "Not OK"
+                        }
+                    },
+                    {
+                        "title": "Ansvar for bruk (i teamet)",
+                        "action": {
+                            "ID": "bR3nT",
+                            "description": "Det er tydelig hvem i teamet som følger opp bruk av KI i utviklingen.\n\nNår kontrollen anses oppfylt:\nAnsvar er definert og kjent i teamet.\n\n```\nInternt metodeverk:   AI-ROS-03\nISO/IEC 42001:       5.3\nNIST AI RMF:         GV.PO-02\nNSMs grunnprinsipper: 1\n```",
+                            "url": "",
+                            "status": "Not OK"
+                        }
+                    },
+                    {
+                        "title": "Kompetanse i teamet",
+                        "action": {
+                            "ID": "vN8yP",
+                            "description": "Teamet har tilstrekkelig forståelse for bruk av KI i utvikling.\n\nNår kontrollen anses oppfylt:\nUtviklere kjenner til sentrale risikoer og begrensninger ved KI.\n\n```\nInternt metodeverk:   AI-ROS-04\nISO/IEC 42001:       7.2\nNIST AI RMF:         GV.PO-04, ME.RA-01\nNSMs grunnprinsipper: 1\n```",
+                            "url": "",
+                            "status": "Not OK"
+                        }
+                    }
+                ],
+                "remainingRisk": {
+                    "probability": 0.0025,
+                    "consequence": 160000
+                }
+            }
+        },
+        {
+            "title": "Feil, lekkasjer eller manglende kontroll i KI-output",
+            "scenario": {
+                "ID": "mF6xQ",
+                "description": "",
+                "threatActors": [
+                    "Reckless employee",
+                    "Insider",
+                    "Script kiddie",
+                    "Hacktivist",
+                    "Nation/government"
+                ],
+                "vulnerabilities": [
+                    "Information leak",
+                    "Misconfiguration",
+                    "Flawed design",
+                    "Dependency vulnerability",
+                    "Unauthorized access"
+                ],
+                "risk": {
+                    "probability": 1,
+                    "consequence": 160000
+                },
+                "actions": [
+                    {
+                        "title": "Sensitiv informasjon",
+                        "action": {
+                            "ID": "LfjQ2",
+                            "description": "Sensitiv data sendes ikke til KI-tjenester uten kontroll.\n\nNår kontrollen anses oppfylt:\nDet brukes ikke produksjonsdata, nøkler eller sensitiv informasjon i prompts.\n\n```\nInternt metodeverk:   AI-ROS-05\nISO/IEC 42001:       6.1, 8.4\nNIST AI RMF:         GV.RM-01, MG.CT-01\nNSMs grunnprinsipper: 2\n```",
+                            "url": "",
+                            "status": "Not OK"
+                        }
+                    },
+                    {
+                        "title": "Prompt-kontroll",
+                        "action": {
+                            "ID": "nX4aD",
+                            "description": "Bruk av prompts er bevisst og kontrollert.\n\nNår kontrollen anses oppfylt:\nPrompts inneholder ikke informasjon som ikke skal eksponeres.\n\n```\nInternt metodeverk:   AI-ROS-06\nISO/IEC 42001:       8.4\nNIST AI RMF:         MP.AC-06, MG.CT-01\nNSMs grunnprinsipper: 2\n```",
+                            "url": "",
+                            "status": "Not OK"
+                        }
+                    },
+                    {
+                        "title": "Kodegjennomgang",
+                        "action": {
+                            "ID": "rT6mL",
+                            "description": "KI-generert kode gjennomgås før bruk.\n\nNår kontrollen anses oppfylt:\nAll kode reviewes før den merges.\n\n```\nInternt metodeverk:   AI-ROS-07\nISO/IEC 42001:       8.5\nNIST AI RMF:         MG.CT-02, MG.OV-01\nNSMs grunnprinsipper: 3\n```",
+                            "url": "",
+                            "status": "Not OK"
+                        }
+                    },
+                    {
+                        "title": "Testing av output",
+                        "action": {
+                            "ID": "kP9sW",
+                            "description": "KI-generert funksjonalitet testes før produksjon.\n\nNår kontrollen anses oppfylt:\nDet finnes tester som verifiserer funksjonaliteten.\n\n```\nInternt metodeverk:   AI-ROS-08\nISO/IEC 42001:       8.5\nNIST AI RMF:         ME.AS-02, MG.CT-03\nNSMs grunnprinsipper: 3\n```",
+                            "url": "",
+                            "status": "Not OK"
+                        }
+                    },
+                    {
+                        "title": "Hallusinasjoner og feil",
+                        "action": {
+                            "ID": "hF1uG",
+                            "description": "Teamet vurderer risiko for feil i KI-output.\n\nNår kontrollen anses oppfylt:\nForslag og logikk fra KI valideres før bruk.\n\n```\nInternt metodeverk:   AI-ROS-09\nISO/IEC 42001:       8.3\nNIST AI RMF:         ME.RA-01, ME.AS-03\nNSMs grunnprinsipper: 3\n```",
+                            "url": "",
+                            "status": "Not OK"
+                        }
+                    },
+                    {
+                        "title": "Systemtilgang via KI (CLI / actions)",
+                        "action": {
+                            "ID": "bE5oV",
+                            "description": "KI har ikke ukontrollert tilgang til systemer eller kan utføre handlinger uten kontroll.\n\nNår kontrollen anses oppfylt:\nTilgang er begrenset og handlinger er kontrollert eller godkjent.\n\n```\nInternt metodeverk:   AI-ROS-10\nISO/IEC 42001:       8.4\nNIST AI RMF:         MG.CT-01, MG.OV-01\nNSMs grunnprinsipper: 2\n```",
+                            "url": "",
+                            "status": "Not OK"
+                        }
+                    },
+                    {
+                        "title": "Multimodal input",
+                        "action": {
+                            "ID": "jW3cN",
+                            "description": "Opplastning av filer, bilder og andre data til KI er kontrollert.\n\nNår kontrollen anses oppfylt:\nTeamet vet hvilke data som kan deles og følger dette i praksis.\n\n```\nInternt metodeverk:   AI-ROS-11\nISO/IEC 42001:       8.4\nNIST AI RMF:         MP.AC-06, MG.CT-01\nNSMs grunnprinsipper: 2\n```",
+                            "url": "",
+                            "status": "Not OK"
+                        }
+                    },
+                    {
+                        "title": "Sporbarhet",
+                        "action": {
+                            "ID": "qA7dR",
+                            "description": "Bruk av KI i utviklingen kan spores i ettertid.\n\nNår kontrollen anses oppfylt:\nDet er mulig å identifisere hvor KI er brukt i kode eller beslutninger.\n\n```\nInternt metodeverk:   AI-ROS-12\nISO/IEC 42001:       8.6\nNIST AI RMF:         ME.AS-04, MG.OV-02\nNSMs grunnprinsipper: 3\n```",
+                            "url": "",
+                            "status": "Not OK"
+                        }
+                    },
+                    {
+                        "title": "Avhengighet av KI",
+                        "action": {
+                            "ID": "mY2xZ",
+                            "description": "Løsningen er ikke avhengig av KI på en ukontrollert måte.\n\nNår kontrollen anses oppfylt:\nKoden kan forstås, vedlikeholdes og videreutvikles uten KI.\n\n```\nInternt metodeverk:   AI-ROS-13\nISO/IEC 42001:       8.3, 8.4\nNIST AI RMF:         ME.RA-02, MG.RM-01\nNSMs grunnprinsipper: 4\n```",
+                            "url": "",
+                            "status": "Not OK"
+                        }
+                    },
+                    {
+                        "title": "Integrasjoner og MCP",
+                        "action": {
+                            "ID": "tK4fB",
+                            "description": "Det er vurdert hvilke integrasjoner, MCP-servere og eksterne datakilder KI har tilgang til.\n\nNår kontrollen anses oppfylt:\nTeamet har identifisert hvilke integrasjoner som brukes, hvilke data som kan tilgjengeliggjøres, og hvilke operasjoner KI kan utføre eller initiere.\n\n```\nInternt metodeverk:   AI-ROS-14\nISO/IEC 42001:       8.3, 8.4\nNIST AI RMF:         MP.AC-03, MG.CT-01\nNSMs grunnprinsipper: 2\n```",
+                            "url": "",
+                            "status": "Not OK"
+                        }
+                    },
+                    {
+                        "title": "Lokal kontekst og arbeidsflate",
+                        "action": {
+                            "ID": "pD8vY",
+                            "description": "Det er vurdert hvilken lokal informasjon KI kan få tilgang til gjennom utviklingsmiljø, filer og arbeidsflate.\n\nNår kontrollen anses oppfylt:\nTeamet kjenner hvilke typer informasjon som kan inngå som kontekst og har etablert nødvendige begrensninger eller føringer for bruk.\n\n```\nInternt metodeverk:   AI-ROS-15\nISO/IEC 42001:       8.4\nNIST AI RMF:         MP.AC-06, GV.RM-01\nNSMs grunnprinsipper: 2\n```",
+                            "url": "",
+                            "status": "Not OK"
+                        }
+                    },
+                    {
+                        "title": "Kritisk vurdering av KI-output",
+                        "action": {
+                            "ID": "wH6gC",
+                            "description": "KI-output brukes som støtte for beslutninger og utvikling, men erstatter ikke faglige vurderinger.\n\nNår kontrollen anses oppfylt:\nTeamet har etablert praksis for å verifisere KI-genererte forslag, analyser, vurderinger og anbefalinger før de tas i bruk.\n\n```\nInternt metodeverk:   AI-ROS-16\nISO/IEC 42001:       7.2, 8.3\nNIST AI RMF:         ME.RA-01, MG.OV-01\nNSMs grunnprinsipper: 1\n```",
+                            "url": "",
+                            "status": "Not OK"
+                        }
+                    },
+                    {
+                        "title": "Nye KI-kapabiliteter",
+                        "action": {
+                            "ID": "iO1eA",
+                            "description": "Det er vurdert om nye KI-funksjoner eller kapabiliteter endrer risikobildet for løsningen.\n\nNår kontrollen anses oppfylt:\nTeamet vurderer nye kapabiliteter før de tas i bruk og identifiserer eventuelle nye risikoer og behov for tiltak.\n\n```\nInternt metodeverk:   AI-ROS-17\nISO/IEC 42001:       6.1, 8.3\nNIST AI RMF:         GV.RM-01, MP.AC-01\nNSMs grunnprinsipper: 1, 2\n```",
+                            "url": "",
+                            "status": "Not OK"
+                        }
+                    }
+                ],
+                "remainingRisk": {
+                    "probability": 0.0025,
+                    "consequence": 160000
                 }
             }
         }
