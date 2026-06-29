@@ -1407,11 +1407,7 @@
             "scenario": {
                 "ID": "xK9mP",
                 "description": "",
-                "threatActors": [
-                    "Reckless employee",
-                    "Insider",
-                    "External supplier"
-                ],
+                "threatActors": ["Reckless employee", "Insider"],
                 "vulnerabilities": [
                     "Flawed design",
                     "Unmonitored use",
