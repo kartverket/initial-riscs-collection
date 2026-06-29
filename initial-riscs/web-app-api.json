@@ -1407,8 +1407,16 @@
             "scenario": {
                 "ID": "xK9mP",
                 "description": "",
-                "threatActors": [],
-                "vulnerabilities": [],
+                "threatActors": [
+                    "Reckless employee",
+                    "Insider",
+                    "External supplier"
+                ],
+                "vulnerabilities": [
+                    "Flawed design",
+                    "Unmonitored use",
+                    "Misconfiguration"
+                ],
                 "risk": {
                     "probability": 1,
                     "consequence": 160000
@@ -1462,8 +1470,20 @@
             "scenario": {
                 "ID": "mF6xQ",
                 "description": "",
-                "threatActors": [],
-                "vulnerabilities": [],
+                "threatActors": [
+                    "Reckless employee",
+                    "Insider",
+                    "Script kiddie",
+                    "Hacktivist",
+                    "Nation/government"
+                ],
+                "vulnerabilities": [
+                    "Information leak",
+                    "Misconfiguration",
+                    "Flawed design",
+                    "Dependency vulnerability",
+                    "Unauthorized access"
+                ],
                 "risk": {
                     "probability": 1,
                     "consequence": 160000
