@@ -1,5 +1,5 @@
 {
-    "schemaVersion": "5.2",
+    "schemaVersion": "5.4",
     "title": "Plassholder for B-nivå-RoS",
     "scope": "Denne RoSen inneholder kun ett scenrio og ett tiltak som antar at risiko- og sårbarhetsanalysen ligger på B-PC",
     "scenarios": [

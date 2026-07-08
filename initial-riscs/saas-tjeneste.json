@@ -1,5 +1,5 @@
 {
-    "schemaVersion": "5.2",
+    "schemaVersion": "5.4",
     "title": "Initiell RoS - SaaS-tjeneste",
     "scope": "Denne RoS'en inneholder scenarier som bør vurderes for eksterne SaaS-tjenester. DEN ER IKKE KOMPLETT, men et utgangspunkt for teamet til å gjøre sine egne vurderinger.",
     "scenarios": [

@@ -1,5 +1,5 @@
 {
-    "schemaVersion": "5.2",
+    "schemaVersion": "5.4",
     "title": "Initiell RoS - Web-app/API",
     "scope": "Denne RoS'en er generert fra opplysninger om kodebasen i kartverket.dev, sikkerhetsmetrikker og sikkerhetskontrollere. DEN ER IKKE KOMPLETT, men et utgangspunkt for teamet til å gjøre sine egne vurderinger.",
     "scenarios": [
